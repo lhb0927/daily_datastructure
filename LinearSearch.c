@@ -22,7 +22,7 @@ int main()
 	else
 		printf("Target index : %d\n",idx);
 
-	idx = LSearch(arr,sizeof(arr),sizeof(int),7);
+	idx = LSearch(arr,sizeof(arr)/sizeof(int),7);
 	if(idx == -1)
 		printf("Failed to Search...\n");
 	else
